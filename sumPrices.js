@@ -4,7 +4,7 @@ function sumPrices(items) {
     }
   
     const total = items.reduce((acc, item) => acc + item.price, 0);
-    return `Total cost: $${total.toFixed(2)}`; // Format to two decimal places
+    return `Total cost: $${total.toFixed(2)}`;
   }
   const cart = [
     { price: 2.7 },

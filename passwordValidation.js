@@ -15,7 +15,7 @@ function validatePassword(password, commonWords = []) {
   
     return "Password is valid.";
   }
-  const password1 = "lskdjdhfvsdh";
+  const password1 = "Qwerty";
   const password2 = "hhhhhh666";
   const commonWords = ["password", "123456"];
   
